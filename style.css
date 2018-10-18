@@ -27,9 +27,9 @@
   color: #33475b;
 }
 
-.hfl_item {
+.hfl_item, .hfr_item{
   float: left;
-  margin: 0 5px;
+  margin: 0 7px;
   line-height: 60px;
 }
 
@@ -37,16 +37,14 @@
   color: #7c98b6;
 }
 
+#barra{
+  color: lightgray;
+}
+
 .header_fixed_right {
   float: right;
   height: 100%;
   width: 50%;
-}
-
-.hfr_item {
-  float: left;
-  margin: 0 5px;
-  line-height: 60px;
 }
 
 .fa-search {
