@@ -12,9 +12,9 @@
 }
 
 .header_fixed {
-  /* background: red; */
+  background: #F5F8FA;
   width: 100%;
-  height: 60px;
+  height: 70px;
   position: fixed;
   border-bottom: 1px solid #cbd6e2;
   font-size: 15px;
@@ -39,7 +39,34 @@
 
 .header_fixed_right {
   float: right;
-  background: red;
   height: 100%;
   width: 50%;
+}
+
+.hfr_item {
+  float: left;
+  margin: 0 5px;
+  line-height: 60px;
+}
+
+.fa-search {
+  color: #46bdcf;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+
+.btn-sign{
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  background: white;
+}
+
+.btn-orange {
+  background: #ff7a59;
+  color: white;
 }
