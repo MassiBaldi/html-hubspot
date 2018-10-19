@@ -91,16 +91,18 @@
   width: 100%;
 }
 
-.header_bottom {
-  background: blue;
-  height: 50%;
-  width: 100%;
-}
-
 .logo_header {
-margin-top: 35px;
+  margin-top: 35px;
 }
 
 .ht_item {
   margin: 0 7px;
+  text-align: right;
+}
+
+.header_bottom {
+  background: #2D3E50;
+  height: 50%;
+  width: 100%;
+  color: white;
 }
