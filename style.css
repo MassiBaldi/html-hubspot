@@ -184,11 +184,10 @@
   width: 150px;
 }
 /* Rettangolo chiaro */
-
 .chiaro {
   background: #F5F8FA;
   width: 100%;
-  height: auto;
+  height: 1000px;
   color: #33475b;
 }
 
@@ -218,5 +217,58 @@ text-align: center;
 .chiaro > p {
   text-align: center;
   line-height: 1.6;
-  padding: 30px;
+  padding: 60px 20px;
+}
+
+.chiaro_left {
+  float: left;
+  width: 50%;
+  height: 250px;
+  background: white;
+}
+.chiaro_img {
+  height: 150px;
+  width: 200px;
+  margin: 0 100px;
+}
+
+.btn_chiaro {
+  margin: 40px 150px;
+}
+
+.chiaro_right {
+  background: white;
+  height: 250px;
+  width: 50%;
+  float: right;
+}
+
+.c_right > h2 {
+  margin: 25px 0;
+  font-weight: 600;
+}
+.c_right > p {
+  margin: 25px 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.c_popular_barra {
+  float: right;
+  margin: -10px 0;
+  border-top: 1.5px solid #cbd6e2;
+  width: 200px;
+}
+
+.fa-check-circle {
+  color: #FF7A59;
+  font-size: 20px;
+  margin: 20px 0
+}
+
+.c_bottom p {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 0 5px;
 }
