@@ -187,7 +187,7 @@
 .chiaro {
   background: #F5F8FA;
   width: 100%;
-  height: 1000px;
+  height: 1500px;
   color: #33475b;
 }
 
@@ -207,14 +207,14 @@
   width: 100%;
 }
 
-.chiaro > h1 {
+.chiaro_centrale > h1 {
 height: 40px;
 width: 600px;
 margin: auto;
 text-align: center;
 }
 
-.chiaro > p {
+.chiaro_centrale > p {
   text-align: center;
   line-height: 1.6;
   padding: 60px 20px;
