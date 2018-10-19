@@ -145,3 +145,36 @@
   background: white;
   font-size: 12px;
 }
+
+/* Rettangolo azzurro */
+.azzurro {
+  background: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
+  height: 600px;
+  width: 100%;
+  color: white;
+  border-bottom: 4px solid #33475b;
+}
+
+.azzu {
+  width: 65%
+}
+.azzu h1 {
+  font-size: 45px;
+  padding: 80px 0;
+}
+
+.azz_p {
+  font-size: 15px;
+}
+
+.btn_azz a {
+  border: 1px solid white;
+  color: #33475b;
+  background: white;
+  padding: 16px 10px;
+  font-size: 15px;
+}
+
+.azz_p_mini {
+  font-size: 9px;
+}
