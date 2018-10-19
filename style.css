@@ -91,6 +91,18 @@
   width: 100%;
 }
 
+.ht_left {
+  float: left;
+  height: 100%;
+  width: 30%;
+}
+
+.ht_right{
+  float: right;
+  height: 100%;
+  width: 70%;
+}
+
 .logo_header {
   margin-top: 35px;
 }
@@ -98,6 +110,7 @@
 .ht_item {
   margin: 0 7px;
   text-align: right;
+  line-height: 100px;
 }
 
 .header_bottom {
@@ -105,4 +118,33 @@
   height: 50%;
   width: 100%;
   color: white;
+}
+
+.hb_left {
+  float: left;
+  height: 100%;
+  width: 70%;
+  background: red;
+  line-height: 100px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.hb_left > p {
+
+}
+
+.hb_right {
+  float: right;
+  height: 100%;
+  width: 30%;
+  line-height: 100px;
+  text-align: right;
+}
+
+.btn-learn{
+  border: 1px solid white;
+  color: #33475b;
+  background: white;
+  font-size: 12px;
 }
